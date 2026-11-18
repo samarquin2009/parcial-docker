@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Aplicación Contenerizada</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #0284c7;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        main {
+            flex: 1;
+            max-width: 800px;
+            margin: 2rem auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .image-container {
+            margin: 1.5rem 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #1e293b;
+            color: #94a3b8;
+        }
+        .badge {
+            display: inline-block;
+            background-color: #e0f2fe;
+            color: #0369a1;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-weight: bold;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>¡Aplicación Web Contenerizada con Éxito!</h1>
+        <p>Proyecto de Examen - Docker y Contenedores</p>
+    </header>
+
+    <main>
+        <h2>Bienvenido a mi Web</h2>
+        <p>Esta aplicación está corriendo dentro de un contenedor Docker en un servidor local (o en la nube). Demuestra el correcto despliegue, mapeo de puertos y gestión del ciclo de vida.</p>
+        
+        <div class="image-container">
+            <!-- Reemplaza 'imagen-ejemplo.jpg' con el nombre real de tu imagen -->
+            <img src="imagen-ejemplo.jpg" alt="Imagen representativa de la aplicación web">
+        </div>
+
+        <div class="badge">
+            Estado: Contenedor Activo & Funcionando 🚀
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Desarrollado para el Examen de Contenerización</p>
+    </footer>
+
+</body>
+</html>
